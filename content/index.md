@@ -9,20 +9,20 @@ menu:
             icon: home
 ---
 
-Vamos apresentar a proposta de trabalho de conclusão de curso
-(TCC), desenvolvido na disciplina MAC0499 (Trabalho de Formatura
-Supervisionado) do bacharelado em Ciência da Computação no Instituto de
-Matemática e Estatística da Universidade de São Paulo (IME-USP).
+Vamos apresentar nossa proposta de trabalho de conclusão de curso (TCC), que
+será desenvolvido na disciplina MAC0499 (Trabalho de Formatura Supervisionado)
+do bacharelado em Ciência da Computação no Instituto de Matemática e
+Estatística da Universidade de São Paulo (IME-USP).
 
 **Autor**: Rodrigo Orem da Silva ([email](mailto:rodrigo.orem@usp.br))  
 **Supervisores**: Alfredo G. Vel Lejbman, Andre I. Leirner
 
 ## Motivação
 
-A esfera pública é pilar fundamental da democracia, onde as pessoas podem se
-reunir para discutir livremente e identificar os problemas da sociedade e, por
-meio dessa discussão, influenciar a ação política. Boa parte dessa discussão
-acontece virtualmente nas redes sociais, onde há poucos mecanismos de
+A esfera pública é um espaço fundamental na democracia, onde as pessoas podem
+se reunir para discutir livremente e identificar os problemas da sociedade e,
+por meio dessa discussão, influenciar a ação política. Boa parte dessa
+discussão acontece virtualmente nas redes sociais, onde há poucos mecanismos de
 organização ou mediação, o que gera debates de baixa qualidade.
 
 Entre os problemas identificados no debate público online estão a falta de
@@ -48,13 +48,13 @@ As atividades essenciais para o desenvolvimento do trabalho são:
 1. **Definição da arquitetura do sistema**. Nessa etapa, vamos definir as
    entidades fundamentais do sistema e como elas se relacionam entre si.
    Algumas perguntas que serão respondidas nessa etapa incluem: Como as
-   opiniões são organizados numa discussão? Como funcionará o sistema de
+   opiniões são organizadas numa discussão? Como funcionará o sistema de
    votação? Os argumentos poderão ser editados, incluindo por outras pessoas?
    Como funcionará o sistema de mediação?
 
 2. **Desenho das interfaces de usuário**. O desenho de protótipos será muito
    útil no começo do desenvolvimento, tanto para concretizar as ideias sobre o
-   funcionamento do sistema quanto para mapear a jornada do usuário, que
+   funcionamento da aplicação quanto para mapear a jornada do usuário, que
    orientará a implementação do sistema.
 
 3. **Modelagem do banco de dados**. Projetaremos um modelo para os
@@ -65,14 +65,28 @@ As atividades essenciais para o desenvolvimento do trabalho são:
    da aplicação. Além disso, esse sistema será integrado, como plugin de
    debates, a outro sistema existente de deliberação coletiva.
 
-5. **Análise de uso e coleta de *feedback***. Após a implementação, teremos dados reais de uso da aplicação. Esses dados podem ser usados para validar a efetividade da implementação e servir de insumo para outra iteração de desenvolvimento.
+5. **Coleta de *feedback* e análise de uso**. Após a implementação, teremos
+   dados reais de uso da aplicação. Esses dados podem ser usados para validar a
+   efetividade da implementação e servir de insumo para outra iteração de
+   desenvolvimento.
 
-6. **Redação da monografia**.
+6. **Redação da monografia**. Inclui, além do desenvolvimento da monografia, o
+   desenvolvimento do pôster e da apresentação.
 
 
 ## Cronograma de atividades
 
-*Em progresso.*
+Propomos o seguinte cronograma para as atividades desenvolvidas nesse TCC:
+
+| Atividade                             | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+| ------------------------------------  | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Estudo sobre o domínio do problema    |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
+| Definição da arquitetura do sistema   |     |  ✔️  |  ✔️  |  ✔️  |     |     |     |     |     |     |
+| Desenho das interfaces de usuário     |     |  ✔️  |  ✔️  |  ✔️  |     |     |     |     |     |     |
+| Modelagem do banco de dados           |     |     |  ✔️  |  ✔️  |  ✔️  |     |     |     |     |     |
+| Implementação do sistema              |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
+| Coleta de *feedback* e análise de uso |     |     |     |     |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
+| Redação da monografia                 |     |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
 
 ## Referências
 <a id="1">[1]</a>: Dan Ehrenfeld, Matt Barton, "Online Public Spheres in the Era of Fake News: Implications for the Composition Classroom", Computers and Composition, Volume 54, 2019, 102525, ISSN 8755-4615, https://doi.org/10.1016/j.compcom.2019.102525.
