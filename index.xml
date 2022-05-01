@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rodrigo Orem</title><link>https://linux.ime.usp.br/~orem/mac0499/</link><description>Recent content on Rodrigo Orem</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://linux.ime.usp.br/~orem/mac0499/index.xml" rel="self" type="application/rss+xml"/><item><title>Proposta de TCC: Plataforma de Debates</title><link>https://linux.ime.usp.br/~orem/mac0499/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://linux.ime.usp.br/~orem/mac0499/</guid><description>&lt;p>Vamos apresentar nossa proposta de trabalho de conclusão de curso (TCC), que
+será desenvolvido na disciplina MAC0499 (Trabalho de Formatura Supervisionado)
+do bacharelado em Ciência da Computação no Instituto de Matemática e
+Estatística da Universidade de São Paulo (IME-USP).&lt;/p>
+&lt;p>&lt;strong>Autor&lt;/strong>: Rodrigo Orem da Silva (&lt;a class="link" href="mailto:rodrigo.orem@usp.br" >email&lt;/a>)&lt;br>
+&lt;strong>Supervisores&lt;/strong>: Alfredo G. Vel Lejbman, Andre I. Leirner&lt;/p>
+&lt;h2 id="motivação">Motivação&lt;/h2>
+&lt;p>A esfera pública é um espaço fundamental na democracia, onde as pessoas podem
+se reunir para discutir livremente e identificar os problemas da sociedade e,
+por meio dessa discussão, influenciar a ação política. Boa parte dessa
+discussão acontece virtualmente nas redes sociais, onde há poucos mecanismos de
+organização ou mediação, o que gera debates de baixa qualidade.&lt;/p>
+&lt;p>Entre os problemas identificados no debate público online estão a falta de
+acesso a dados sobre o tema, falta de conhecimento dos argumentos contrários e
+prevalência de ataques pessoais. Além disso, há também o uso de informações
+falsas ou enganosas para sustentar argumentos, de modo a manipular pessoas com
+menor conhecimento sobre o tema e influenciar a opinião pública.&lt;cite>&lt;a class="link" href="#1" >[1]&lt;/a>&lt;/cite>&lt;/p>
+&lt;p>Para abordar esses problemas, propomos a construção de uma plataforma que
+ofereça um ambiente mais propício para o debate público, com o apoio de
+ferramentas de categorização, mediação e checagem de fatos colaborativa.&lt;/p>
+&lt;h2 id="atividades">Atividades&lt;/h2>
+&lt;p>As atividades essenciais para o desenvolvimento do trabalho são:&lt;/p>
+&lt;ol start="0">
+&lt;li>
+&lt;p>&lt;strong>Estudo sobre o domínio do problema&lt;/strong>. Problemas envolvendo a opinião
+pública são abordados pela teoria da escolha social, uma estrutura teórica
+que agrega insumos individuais (como opiniões, preferências e interesses
+individuais) em resultados coletivos (como decisões, preferências e
+julgamentos coletivos).&lt;cite>&lt;a class="link" href="#2" >[2]&lt;/a>&lt;/cite> Conhecer essa área de estudo
+será fundamental para propor um sistema efetivo.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Definição da arquitetura do sistema&lt;/strong>. Nessa etapa, vamos definir as
+entidades fundamentais do sistema e como elas se relacionam entre si.
+Algumas perguntas que serão respondidas nessa etapa incluem: Como as
+opiniões são organizadas numa discussão? Como funcionará o sistema de
+votação? Os argumentos poderão ser editados, incluindo por outras pessoas?
+Como funcionará o sistema de mediação?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Desenho das interfaces de usuário&lt;/strong>. O desenho de protótipos será muito
+útil no começo do desenvolvimento, tanto para concretizar as ideias sobre o
+funcionamento da aplicação quanto para mapear a jornada do usuário, que
+orientará a implementação do sistema.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Modelagem do banco de dados&lt;/strong>. Projetaremos um modelo para os
+dados e o implementaremos em um sistema gerenciador de banco de dados.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Implementação do sistema&lt;/strong>. Essa etapa abrange todas as tarefas
+relacionadas a codificação do &lt;em>frontend&lt;/em> e do &lt;em>backend&lt;/em> e o provisionamento
+da aplicação. Além disso, esse sistema será integrado, como plugin de
+debates, a outro sistema existente de deliberação coletiva.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Coleta de &lt;em>feedback&lt;/em> e análise de uso&lt;/strong>. Após a implementação, teremos
+dados reais de uso da aplicação. Esses dados podem ser usados para validar a
+efetividade da implementação e servir de insumo para outra iteração de
+desenvolvimento.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Redação da monografia&lt;/strong>. Inclui, além do desenvolvimento da monografia, o
+desenvolvimento do pôster e da apresentação.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="cronograma-de-atividades">Cronograma de atividades&lt;/h2>
+&lt;p>Propomos o seguinte cronograma para as atividades desenvolvidas nesse TCC:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Atividade&lt;/th>
+&lt;th>Mar&lt;/th>
+&lt;th>Abr&lt;/th>
+&lt;th>Mai&lt;/th>
+&lt;th>Jun&lt;/th>
+&lt;th>Jul&lt;/th>
+&lt;th>Ago&lt;/th>
+&lt;th>Set&lt;/th>
+&lt;th>Out&lt;/th>
+&lt;th>Nov&lt;/th>
+&lt;th>Dez&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Estudo sobre o domínio do problema&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Definição da arquitetura do sistema&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Desenho das interfaces de usuário&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Modelagem do banco de dados&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Implementação do sistema&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coleta de &lt;em>feedback&lt;/em> e análise de uso&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Redação da monografia&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;td>✔️&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="referências">Referências&lt;/h2>
+&lt;p>&lt;a id="1">[1]&lt;/a>: Dan Ehrenfeld, Matt Barton, &amp;ldquo;Online Public Spheres in the Era of Fake News: Implications for the Composition Classroom&amp;rdquo;, Computers and Composition, Volume 54, 2019, 102525, ISSN 8755-4615, &lt;a class="link" href="https://doi.org/10.1016/j.compcom.2019.102525" target="_blank" rel="noopener"
+>https://doi.org/10.1016/j.compcom.2019.102525&lt;/a>.&lt;/p>
+&lt;p>&lt;a id="2">[2]&lt;/a>: List, Christian, &amp;ldquo;Social Choice Theory&amp;rdquo;, The Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Edward N. Zalta (ed.), &lt;a class="link" href="https://plato.stanford.edu/archives/spr2022/entries/social-choice/" target="_blank" rel="noopener"
+>https://plato.stanford.edu/archives/spr2022/entries/social-choice/&lt;/a>&lt;/p></description></item></channel></rss>
