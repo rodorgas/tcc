@@ -1,4 +1,4 @@
-baseurl: https://linux.ime.usp.br/~orem/mac0499
+baseurl: https://rodorgas.github.io/tcc/
 languageCode: pt-br
 theme: hugo-theme-stack
 paginate: 5

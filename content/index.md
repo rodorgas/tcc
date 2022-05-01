@@ -89,7 +89,11 @@ Propomos o seguinte cronograma para as atividades desenvolvidas nesse TCC:
 | Redação da monografia                 |     |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
 
 ## Referências
-<a id="1">[1]</a>: Dan Ehrenfeld, Matt Barton, "Online Public Spheres in the Era of Fake News: Implications for the Composition Classroom", Computers and Composition, Volume 54, 2019, 102525, ISSN 8755-4615, https://doi.org/10.1016/j.compcom.2019.102525.
+<a id="1">[1]</a>: Dan Ehrenfeld, Matt Barton, "Online Public Spheres in the
+Era of Fake News: Implications for the Composition Classroom", Computers and
+Composition, Volume 54, 2019, 102525, ISSN 8755-4615,
+https://doi.org/10.1016/j.compcom.2019.102525.
 
-<a id="2">[2]</a>: List, Christian, "Social Choice Theory", The Stanford Encyclopedia of Philosophy (Spring 2022 Edition), Edward N. Zalta (ed.), https://plato.stanford.edu/archives/spr2022/entries/social-choice/
-
+<a id="2">[2]</a>: List, Christian, "Social Choice Theory", The Stanford
+Encyclopedia of Philosophy (Spring 2022 Edition), Edward N. Zalta (ed.),
+https://plato.stanford.edu/archives/spr2022/entries/social-choice/
