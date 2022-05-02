@@ -36,6 +36,10 @@ jobs:
 
       - name: Deploy on Rede Linux
         if: github.ref == 'refs/heads/main'
+        env:
+          REDELINUX_PASS: ${{ secrets.REDELINUX_PASS }}
+          REDELINUX_USER: ${{ secrets.REDELINUX_USER }}
+          REDELINUX_HOST: ${{ secrets.REDELINUX_HOST }}
+          REDELINUX_PATH: ${{ secrets.REDELINUX_PATH }}
         run: |
-          sudo apt-get -y install sshpass rsync
-          sshpass -p '{{ REDELINUX_PASS }}' rsync --progress -avz -e ssh public/* '{{ REDELINUX_USER  }}@{{ REDELINUX_HOST }}:{{ REDELINUX_PATH }}'
+          sshpass -p "$REDELINUX_PASS" rsync --progress -avz -e ssh public/* "$REDELINUX_USER@$REDELINUX_HOST:$REDELINUX_PATH"
