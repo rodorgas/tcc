@@ -21,12 +21,20 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Build for GH Pages
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy on GH Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - name: Build for Rede Linux
+        run: hugo --minify --environment redelinux
+
+      - name: Deploy on Rede Linux
+        if: github.ref == 'refs/heads/main'
+        run: sudo apt-get -y install sshpass rsync
+        run: sshpass -p '{{ REDELINUX_PASS }}' rsync --progress -avz -e ssh public/* '{{ REDELINUX_USER  }}@{{ REDELINUX_HOST }}:{{ REDELINUX_PATH }}'
