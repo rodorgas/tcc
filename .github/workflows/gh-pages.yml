@@ -42,4 +42,4 @@ jobs:
           REDELINUX_HOST: ${{ secrets.REDELINUX_HOST }}
           REDELINUX_PATH: ${{ secrets.REDELINUX_PATH }}
         run: |
-          sshpass -p "$REDELINUX_PASS" rsync --progress -avz -e ssh public/* "$REDELINUX_USER@$REDELINUX_HOST:$REDELINUX_PATH"
+          sshpass -p "$REDELINUX_PASS" rsync --progress -avz -e "ssh -o StrictHostKeyChecking=no" public/* "$REDELINUX_USER@$REDELINUX_HOST:$REDELINUX_PATH"
