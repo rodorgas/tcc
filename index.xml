@@ -3,7 +3,7 @@ será desenvolvido na disciplina MAC0499 (Trabalho de Formatura Supervisionado)
 do bacharelado em Ciência da Computação no Instituto de Matemática e
 Estatística da Universidade de São Paulo (IME-USP).&lt;/p>
 &lt;p>&lt;strong>Autor&lt;/strong>: Rodrigo Orem da Silva (&lt;a class="link" href="mailto:rodrigo.orem@usp.br" >email&lt;/a>)&lt;br>
-&lt;strong>Supervisores&lt;/strong>: Alfredo G. Vel Lejbman, Andre I. Leirner&lt;/p>
+&lt;strong>Supervisores&lt;/strong>: Kelly Rosa Braghetto&lt;/p>
 &lt;h2 id="motivação">Motivação&lt;/h2>
 &lt;p>A esfera pública é um espaço fundamental na democracia, onde as pessoas podem
 se reunir para discutir livremente e identificar os problemas da sociedade e,
@@ -50,14 +50,7 @@ dados e o implementaremos em um sistema gerenciador de banco de dados.&lt;/p>
 &lt;li>
 &lt;p>&lt;strong>Implementação do sistema&lt;/strong>. Essa etapa abrange todas as tarefas
 relacionadas a codificação do &lt;em>frontend&lt;/em> e do &lt;em>backend&lt;/em> e o provisionamento
-da aplicação. Além disso, esse sistema será integrado, como plugin de
-debates, a outro sistema existente de deliberação coletiva.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Coleta de &lt;em>feedback&lt;/em> e análise de uso&lt;/strong>. Após a implementação, teremos
-dados reais de uso da aplicação. Esses dados podem ser usados para validar a
-efetividade da implementação e servir de insumo para outra iteração de
-desenvolvimento.&lt;/p>
+da aplicação.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Redação da monografia&lt;/strong>. Inclui, além do desenvolvimento da monografia, o
@@ -143,19 +136,6 @@ desenvolvimento do pôster e da apresentação.&lt;/p>
 &lt;td>✔️&lt;/td>
 &lt;td>✔️&lt;/td>
 &lt;td>✔️&lt;/td>
-&lt;td>✔️&lt;/td>
-&lt;td>✔️&lt;/td>
-&lt;td>✔️&lt;/td>
-&lt;td>✔️&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Coleta de &lt;em>feedback&lt;/em> e análise de uso&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>✔️&lt;/td>
 &lt;td>✔️&lt;/td>
 &lt;td>✔️&lt;/td>
