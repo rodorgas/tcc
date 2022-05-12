@@ -15,7 +15,7 @@ do bacharelado em Ciência da Computação no Instituto de Matemática e
 Estatística da Universidade de São Paulo (IME-USP).
 
 **Autor**: Rodrigo Orem da Silva ([email](mailto:rodrigo.orem@usp.br))  
-**Supervisores**: Alfredo G. Vel Lejbman, Andre I. Leirner
+**Supervisores**: Kelly Rosa Braghetto
 
 ## Motivação
 
@@ -62,15 +62,9 @@ As atividades essenciais para o desenvolvimento do trabalho são:
 
 4. **Implementação do sistema**. Essa etapa abrange todas as tarefas
    relacionadas a codificação do *frontend* e do *backend* e o provisionamento
-   da aplicação. Além disso, esse sistema será integrado, como plugin de
-   debates, a outro sistema existente de deliberação coletiva.
+   da aplicação.
 
-5. **Coleta de *feedback* e análise de uso**. Após a implementação, teremos
-   dados reais de uso da aplicação. Esses dados podem ser usados para validar a
-   efetividade da implementação e servir de insumo para outra iteração de
-   desenvolvimento.
-
-6. **Redação da monografia**. Inclui, além do desenvolvimento da monografia, o
+5. **Redação da monografia**. Inclui, além do desenvolvimento da monografia, o
    desenvolvimento do pôster e da apresentação.
 
 
@@ -85,7 +79,6 @@ Propomos o seguinte cronograma para as atividades desenvolvidas nesse TCC:
 | Desenho das interfaces de usuário     |     |  ✔️  |  ✔️  |  ✔️  |     |     |     |     |     |     |
 | Modelagem do banco de dados           |     |     |  ✔️  |  ✔️  |  ✔️  |     |     |     |     |     |
 | Implementação do sistema              |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
-| Coleta de *feedback* e análise de uso |     |     |     |     |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
 | Redação da monografia                 |     |     |     |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |  ✔️  |
 
 ## Referências
