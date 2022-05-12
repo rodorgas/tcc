@@ -15,7 +15,7 @@ do bacharelado em Ciência da Computação no Instituto de Matemática e
 Estatística da Universidade de São Paulo (IME-USP).
 
 **Autor**: Rodrigo Orem da Silva ([email](mailto:rodrigo.orem@usp.br))  
-**Supervisores**: Kelly Rosa Braghetto
+**Supervisora**: Kelly Rosa Braghetto
 
 ## Motivação
 
