@@ -1,63 +1,187 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rodrigo Orem</title><link>https://rodorgas.github.io/tcc/</link><description>Recent content on Rodrigo Orem</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://rodorgas.github.io/tcc/index.xml" rel="self" type="application/rss+xml"/><item><title>Proposta de TCC: Plataforma de Debates</title><link>https://rodorgas.github.io/tcc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rodorgas.github.io/tcc/</guid><description>&lt;p>Esta página descreve a proposta para o trabalho de conclusão de curso (TCC), que
-será desenvolvido na disciplina MAC0499 (Trabalho de Formatura Supervisionado)
-do bacharelado em Ciência da Computação no Instituto de Matemática e Estatística
-da Universidade de São Paulo (IME-USP).&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rodrigo Orem</title><link>https://rodorgas.github.io/tcc/</link><description>Recent content on Rodrigo Orem</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><atom:link href="https://rodorgas.github.io/tcc/index.xml" rel="self" type="application/rss+xml"/><item><title>Proposta de TCC: Plataforma de Debates</title><link>https://rodorgas.github.io/tcc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rodorgas.github.io/tcc/</guid><description>&lt;p>Esta página descreve a proposta para o trabalho de conclusão de curso (TCC),
+que será desenvolvido na disciplina MAC0499 (Trabalho de Formatura
+Supervisionado) do bacharelado em Ciência da Computação no Instituto de
+Matemática e Estatística da Universidade de São Paulo (IME-USP).&lt;/p>
 &lt;p>&lt;strong>Autor&lt;/strong>: Rodrigo Orem da Silva (&lt;a class="link" href="mailto:rodrigo.orem@usp.br" >email&lt;/a>)&lt;br>
 &lt;strong>Supervisora&lt;/strong>: Kelly Rosa Braghetto&lt;/p>
 &lt;h2 id="motivação">Motivação&lt;/h2>
-&lt;p>A esfera pública é um espaço fundamental na democracia, onde as pessoas podem
-se reunir para discutir livremente e identificar os problemas da sociedade e,
-por meio dessa discussão, influenciar a ação política. Boa parte dessa
-discussão acontece virtualmente nas redes sociais, onde há poucos mecanismos de
-organização ou mediação, o que gera debates de baixa qualidade.&lt;/p>
-&lt;p>Entre os problemas identificados no debate público online estão a falta de
-acesso a dados sobre o tema, falta de conhecimento dos argumentos contrários e
-prevalência de ataques pessoais. Além disso, há também o uso de informações
-falsas ou enganosas para sustentar argumentos, de modo a manipular pessoas com
-menor conhecimento sobre o tema e influenciar a opinião
-pública.&lt;cite>&lt;a class="link" href="#1" >[1]&lt;/a>&lt;/cite>&lt;/p>
-&lt;p>Para abordar esses problemas, propomos a construção de uma plataforma que
-ofereça um ambiente mais propício para o debate público, com o apoio de
-ferramentas de categorização, mediação e checagem de fatos colaborativa.&lt;/p>
+&lt;p>A esfera pública é um espaço fundamental na democracia onde as pessoas podem se
+reunir para discutir livremente e identificar os problemas da sociedade. As
+plataformas sociais são meios de comunicação importantes para o exercício da
+cidadania e o público que produz e consome as informações nessas plataformas
+facilita a criação de uma esfera pública digital crítica e racional que pode
+apoiar o debate público, a deliberação e formação de comunidades, além de
+melhorar a participação dos cidadãos na tomada de decisões políticas
+&lt;a href="#Ehrenfeld-e-Barton-2019" id="Ehrenfeld-e-Barton-2019-1">(Ehrenfeld e Barton, 2019)&lt;/a>
+&lt;a href="#Snellen-et-al-2012" id="Snellen-et-al-2012-1">(Snellen et al., 2012)&lt;/a>
+.&lt;/p>
+&lt;p>Atualmente, o debate nas redes sociais ocorre por meio de postagens, de
+repostagens (em que um usuário republica certo conteúdo com seu próprio
+comentário), e de seções de comentários. Geralmente, os comentários mais
+populares (que receberam mais curtidas ou mais respostas) são exibidos
+primeiro. Os sites de notícias e agregadores de &lt;em>links&lt;/em> sociais também possuem
+seções de comentários que permitem que os leitores comentem e escrevam réplicas
+aos outros comentários, geralmente em uma estrutura de árvore. Já os fóruns de
+discussão costumam exibir as mensagens de maneira cronológica e para responder
+a uma mensagem específica, ela é reproduzida na resposta.&lt;/p>
+&lt;p>No entanto, essas plataformas possuem diversos problemas, como as bolhas
+ideológicas, que reforçam crenças pessoais e excluem opiniões opostas
+&lt;a href="#Mounk-2018" id="Mounk-2018-1">(Mounk, 2018)&lt;/a>
+. Além disso, foi observado distorção da
+informação, ataques pessoais, propagação de desinformação e prejuízo à
+reputação da plataforma
+&lt;a href="#Diakopoulos-e-Naaman-2011" id="Diakopoulos-e-Naaman-2011-1">(Diakopoulos e Naaman, 2011)&lt;/a>.&lt;/p>
+&lt;p>Para abordar esses problemas, um trabalho propôs o Kialo, uma plataforma de
+debate estruturado que foi projetada para repensar o papel do debate em
+pesquisa, divulgação científica e ensino, principalmente na área de ciência
+política. Essa plataforma divide os argumentos de cada tema de discussão entre
+prós e contras, e o debate é exibido visualmente com uma estrutura de árvore
+&lt;a href="#Chaudoin-et-al-2017" id="Chaudoin-et-al-2017-1">(Chaudoin et al., 2017)&lt;/a>.&lt;/p>
+&lt;p>Atualmente o Kialo possui quase 18 mil debates e mais de 700 mil argumentos, de
+modo a ser a principal ferramenta de argumentação colaborativa publicamente
+disponível. Acreditamos que, embora uma visualização em árvore da discussão
+seja intuitiva, ela pode dificultar a compreensão já que o conteúdo fica
+fragmentado e são necessárias várias interações com a aplicação para ler um
+argumento com profundidade. Além disso, o contexto de uma discussão pode ser
+perdido ao navegar na árvore, de modo que subargumentos mais profundos podem
+não ser aplicáveis à discussão original.&lt;/p>
+&lt;p>Outro trabalho desenvolveu o Spirited, uma ferramenta de debate estruturado em
+que a discussão é feita ao redor de um artigo de opinião. Os argumentos são
+construídos na forma de anotações no artigo e os usuários podem votar nas
+anotações e nas sentenças do artigo. Os autores acreditam que manter uma
+estrutura menos rigorosa e mais livre favorece o engajamento e gera discussões
+mais interessantes
+&lt;a href="#Mcelfresh-2016" id="Mcelfresh-2016-1">(Mcelfresh, 2016)&lt;/a>.&lt;/p>
+&lt;p>Observa-se, no entanto, que plataformas de anotações colaborativas enfrentam
+problemas de engajamento, de modo que o único caso de sucesso é o Genius,
+voltado à interpretação de significados das letras das músicas
+&lt;a href="#Mcelfresh-2016" id="Mcelfresh-2016-2">(Mcelfresh, 2016)&lt;/a>.
+Além disso, com essa estrutura de debates mais flexível, é mais difícil
+organizar, classificar e reusar partes da discussão.&lt;/p>
+&lt;h2 id="objetivos">Objetivos&lt;/h2>
+&lt;p>Para abordar esses problemas, propõe-se a construção do Veredito, uma
+plataforma que pretende oferecer um ambiente mais propício para o debate
+público com o apoio de ferramentas de categorização, mediação e checagem de
+fatos colaborativa.&lt;/p>
+&lt;p>Nessa ferramenta, as discussões são organizadas em tópicos com argumentos
+divididos entre prós e contras. É possível rebater cada argumento com
+contra-argumentos em apenas um nível de discussão, limitação que pretende
+evitar os problemas da estrutura em árvore. Não é possível acrescentar
+subargumentos a favor: caso o usuário acredite que é possível complementar um
+argumento com dados ou outro raciocínio, é possível sugerir uma edição no
+próprio texto. Nesse formato é possível ter argumentos mais autocontidos, o que
+pode facilitar a leitura e compreensão do assunto.&lt;/p>
+&lt;p>Caso um ponto da discussão seja mais polêmico, é possível criar um novo tópico
+e referenciá-lo no argumento, de modo a usá-lo como hipótese. Assim, a
+comunidade pode ter discussões paralelas de assuntos tangenciais em contextos
+separados, sem que a plataforma perca a relação semântica entre esses assuntos.&lt;/p>
+&lt;p>Pretende-se também aplicar tecnologias de aprendizado de máquina e
+processamento de linguagem natural para facilitar as atividades de moderação.
+Além disso, serão usadas técnicas de raspagem de dados e inteligência
+artificial para fornecer aos usuários informações sobre a relevância e
+popularidade de um argumento.&lt;/p>
 &lt;p>Em um trabalho anterior, foi possível implementar a versão inicial da
-plataforma, disponível em &lt;a
-href="https://veredito.org">&lt;a class="link" href="https://veredito.org" target="_blank" rel="noopener"
->https://veredito.org&lt;/a>&lt;/a>. As atividades desse ano
-consistem no desenvolvimento de outras funcionalidades e avaliação da solução.&lt;/p>
+plataforma (disponível em
+&lt;a href="https://veredito.org">&lt;a class="link" href="https://veredito.org/" target="_blank" rel="noopener"
+>https://veredito.org/&lt;/a>&lt;/a>
+). Agora, para a
+continuidade do projeto, as atividades consistem no desenvolvimento de outras
+funcionalidades e na avaliação da solução.&lt;/p>
+&lt;h2 id="metodologia">Metodologia&lt;/h2>
+&lt;p>Atualmente, a plataforma é composta por dois componentes: o &lt;em>frontend&lt;/em> (uma
+interface gráfica web), e o &lt;em>backend&lt;/em> (o servidor responsável por coordenar as
+operações e gerir os dados da aplicação). O projeto é principalmente escrito em
+TypeScript, uma linguagem de programação fortemente tipada que transpila para
+JavaScript.&lt;/p>
+&lt;h3 id="frontend">&lt;em>Frontend&lt;/em>&lt;/h3>
+&lt;p>A interface gráfica do Veredito (&lt;a class="link" href="#figura-1" >figura 1&lt;/a>) é web e responsiva, de
+modo a funcionar tanto em &lt;em>desktops&lt;/em> quanto em dispositivos móveis. Ela usa
+React, uma biblioteca que facilita o desenvolvimento de aplicações web
+interativas, e Tailwind, um arcabouço de CSS que facilita o uso de um sistema
+de design coerente em toda a interface.&lt;/p>
+&lt;div id="figura-1">
+&lt;figure>&lt;img src="topico.png"/>&lt;figcaption>
+&lt;h4>Figura 1: Discussão de um tópico no Veredito.&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;h3 id="backend">&lt;em>Backend&lt;/em>&lt;/h3>
+&lt;p>Os dados na plataforma são representados de acordo com o modelo de dados
+relacional. O esquema do banco de dados relacional da plataforma é mostrado na
+&lt;a class="link" href="#figura-2" >figura 2&lt;/a>. Na implementação foi utilizado o sistema
+gerenciador de banco de dados PostgreSQL.&lt;/p>
+&lt;div style="max-width: 25em; text-align: center; margin: auto;" id="figura-2">
+&lt;figure>&lt;img src="diagrama-modelo.png"/>&lt;figcaption>
+&lt;h4>Figura 2: Diagrama do modelo de dados do Veredito.&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>A interação na plataforma é dada por meio de tópicos, que podem conter
+argumentos prós ou contras. Como há muitas relações e atributos em comum entre
+tópicos e argumentos, os dois são representados pela mesma entidade
+&lt;em>proposition&lt;/em>. É possível diferenciá-los pelo atributo &lt;em>topic_id&lt;/em>, afinal,
+argumentos referenciam a &lt;em>proposition&lt;/em> correspondente ao tópico que eles
+pertencem, enquanto tópicos têm esse campo em branco.&lt;/p>
+&lt;p>Todas as edições são armazenadas em &lt;em>proposition_history&lt;/em>, de modo a permitir o
+desfazimento de uma edição que piorou ou vandalizou o conteúdo. Quando o
+usuário está registrado, seu nome de usuário é associado à edição, caso
+contrário, o endereço de IP também é salvo.&lt;/p>
+&lt;p>Para manipular esses dados, existe um serviço em Node.js que disponibiliza uma
+API que usa a linguagem de consulta GraphQL. Esse serviço usa o arcabouço
+NestJS, que facilita o uso de padrões arquiteturais e o desenvolvimento de
+aplicações testáveis, escalonáveis e frouxamente acopladas. Esse serviço é
+dividido nos seguintes módulos:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>user&lt;/em>: permite cadastrar um novo usuário, autenticar um usuário, encerrar a
+sessão e obter informações sobre os usuários;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>topic&lt;/em>: permite consultar tópicos de debate e criar um novo tópico;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>argument&lt;/em>: permite criar, editar e listar argumentos, além de listar o histórico
+de revisões do argumento; vote: permite votar em uma proposição ou remover o
+voto.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>vote&lt;/em>: permite votar em uma proposição ou remover o voto.&lt;/p>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="atividades">Atividades&lt;/h2>
 &lt;p>As atividades essenciais para o desenvolvimento do trabalho são:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>Desenvolvimento de outras funcionalidades básicas.&lt;/strong> Além de ser possível
-discutir cada proposição com argumentos a favor e contra, será possível criar
-uma discussão livre em cada argumento. Também será possível referenciar
-fontes internas ou outros argumentos dentro dos próprios argumentos.&lt;/p>
-&lt;p>Além disso, nessa atividade corrigiremos certos certos problemas de
-implementação que ocorrem no ambiente de produção.&lt;/p>
+&lt;p>&lt;strong>Desenvolvimento de outras funcionalidades básicas&lt;/strong>. Além de ser possível
+discutir cada proposição com argumentos a favor e contra, será possível
+criar uma discussão livre em cada argumento. Também será possível
+referenciar fontes internas ou outros argumentos dentro dos próprios
+argumentos.&lt;/p>
+&lt;p>Além disso, nessa atividade corrigiremos certos problemas que estão
+ocorrendo no ambiente de produção da implementação atual.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Categorização automática.&lt;/strong> Ao criar uma proposição para ser debatida, o
-usuário pode atribuir &lt;em>tags&lt;/em>, o que é útil para categorização. Será desenvolvido
-uma funcionalidade que sugere &lt;em>tags&lt;/em> apropriadas para a proposição do usuário
-baseada em seu texto.&lt;/p>
+&lt;p>&lt;strong>Categorização automática&lt;/strong>. Ao criar uma proposição para ser debatida, o
+usuário pode atribuir &lt;em>tags&lt;/em>, o que é útil para categorização. Será
+desenvolvida uma funcionalidade que sugere &lt;em>tags&lt;/em> apropriadas para a
+proposição do usuário baseadas em seu texto.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Detecção de argumentos duplicados.&lt;/strong> Utilizaremos técnicas de aprendizado
+&lt;p>&lt;strong>Detecção de argumentos duplicados&lt;/strong>. Utilizaremos técnicas de aprendizado
 de máquina e processamento de linguagem natural para detectar argumentos
-similares, de modo a sugerir que o usuário referencie ou edite argumentos
-já existentes, caso seja apropriado.&lt;/p>
+similares, de modo a sugerir que o usuário referencie ou edite argumentos já
+existentes, caso seja apropriado.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Cálculo de relevância de argumentos.&lt;/strong> Adaptaremos o algoritmo PageRank
+&lt;p>&lt;strong>Cálculo de relevância de argumentos&lt;/strong>. Adaptaremos o algoritmo PageRank
 para calcular a relevância dos argumentos a partir da frequência deles como
-premissa de outros argumentos. Para isso, será necessário fazer uma raspagem de
-dados na &lt;em>web&lt;/em> ou em alguma rede com conteúdo social, o que também é útil para
-calcular a popularidade dos argumentos.&lt;/p>
+premissa de outros argumentos. Para isso, será necessário fazer uma raspagem
+de dados na web ou em alguma rede com conteúdo social, o que também é útil
+para calcular a popularidade dos argumentos.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Pesquisa de usabilidade&lt;/strong>. Será feita uma pesquisa entre usuários para
-testar a usabilidade e avaliar se o sistema é efetivo como uma plataforma de
-debates online.&lt;/p>
+&lt;p>&lt;strong>Avaliação de usabilidade&lt;/strong>. Será feita uma pesquisa entre usuários para
+avaliar a usabilidade e efetividade como uma plataforma de debates online.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Redação da monografia&lt;/strong>. Inclui, além do desenvolvimento da monografia, o
@@ -157,8 +281,64 @@ desenvolvimento do pôster e da apresentação.&lt;/p>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="referências">Referências&lt;/h2>
-&lt;p>&lt;a id="1">[1]&lt;/a>: Dan Ehrenfeld, Matt Barton, &amp;ldquo;Online Public Spheres in the
-Era of Fake News: Implications for the Composition Classroom&amp;rdquo;, Computers and
-Composition, Volume 54, 2019, 102525, ISSN 8755-4615,
-&lt;a class="link" href="https://doi.org/10.1016/j.compcom.2019.102525" target="_blank" rel="noopener"
->https://doi.org/10.1016/j.compcom.2019.102525&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;ol>
+&lt;li>
+&lt;p>^
+&lt;sup>
+&lt;a href="#Ehrenfeld-e-Barton-2019-1">[a]&lt;/a>
+&lt;/sup>
+&lt;span id="Ehrenfeld-e-Barton-2019">[Ehrenfeld e Barton, 2019]&lt;/span> Dan
+Ehrenfeld, Matt Barton, “Online Public Spheres in the Era of Fake News:
+Implications for the Composition Classroom”, Computers and Composition, Volume
+54, 2019, 102525, ISSN 8755-4615.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>^
+&lt;sup>
+&lt;a href="#Snellen-et-al-2012-1">[a]&lt;/a>
+&lt;/sup>
+&lt;span id="Snellen-et-al-2012">[Snellen et al. 2012]&lt;/span>
+I Th M Snellen, Marcel Thaens e Wim BHJ van de Donk. Public administration in
+the information age: Revisited. Vol. 19. IOS press, 2012, pp. 53, 54 (citado na
+pg. 1).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>^
+&lt;sup>
+&lt;a href="#Mounk-2018-1">[a]&lt;/a>
+&lt;/sup>
+&lt;span id="Mounk-2018">[Mounk 2018]&lt;/span>
+Yascha Mounk. “The people vs. democracy”. In: The People vs. Demo-
+cracy. Harvard University Press, 2018 (citado na pg. 1).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>^
+&lt;sup>
+&lt;a href="#Diakopoulos-e-Naaman-2011-1">[a]&lt;/a>
+&lt;/sup>
+&lt;span id="Diakopoulos-e-Naaman-2011">[Diakopoulos e Naaman 2011]&lt;/span>
+Nicholas Diakopoulos e Mor Naaman. “Towards quality discourse in online news
+comments”. In: Proceedings of the ACM 2011 conference on Computer supported
+cooperative work. 2011, pp. 133–142 (citado na pg. 1).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>^
+&lt;sup>
+&lt;a href="#Chaudoin-et-al-2017-1">[a]&lt;/a>
+&lt;/sup>
+&lt;span id="Chaudoin-et-al-2017">[Chaudoin et al., 2017]&lt;/span>
+Stephen Chaudoin, Jacob Shapiro e Dustin Tingley.
+“Revolutionizing teaching and research with a structured debate platform”.
+Journal of Political Science 58 (2017), pp. 1064–1082 (citado na pg. 2).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>^
+&lt;sup>
+&lt;a href="#Mcelfresh-2016-1">[a]&lt;/a>
+&lt;a href="#Mcelfresh-2016-2">[b]&lt;/a>
+&lt;/sup>
+&lt;span id="Mcelfresh-2016">[Mcelfresh, 2016]&lt;/span>
+Joshua Mcelfresh. Spirited: A Web Application for Structured Debate. Harvard
+University, 2016 (citado na pg. 3).&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
